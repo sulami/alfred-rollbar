@@ -1,0 +1,13 @@
+* Alfred Rollbar
+
+Simple [[https://www.alfredapp.com/][Alfred]] workflow to quickly open a [[https://rollbar.com][Rollbar]] project page.
+
+Depends on [[https://stedolan.github.io/jq/][jq]] to be installed to ~/usr/local/bin/jq~.
+
+#+begin_src sh
+brew install jq
+#+end_src
+
+After installation, simply set the ~ROLLBAR_ORG~ and ~ROLLBAR_TOKEN~ environment variables to the name of your organisation and a read-only Rollbar token respectively.
+
+Invoke with ~rollbar foo~.
